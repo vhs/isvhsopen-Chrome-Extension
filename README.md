@@ -5,6 +5,10 @@ This extension places an icon ([browser action](https://developer.chrome.com/ext
 
 When the space is open, the closing time is shown using an icon [badge](https://developer.chrome.com/extensions/browserAction#badge). Since badges are limited to 4 characters, the time is shown in 24-hour HHMM format. The badge color is configured to fade from green (closing in >5h) to yellow (closing in 1h) to red (closing in 1 min).
 
+![Browser Icon Colour Example](./IconExample.png)
+
 When the isvhsopen status changes, a browser notification pops up to alert the user.
+
+![Browser Notification Example](./NotificationExample.png)
 
 To use this extension in developer mode, go to chrome://extensions/, check the Developer Mode checkbox in the top right, and drag the ```isvhsopen``` extension folder onto the window. I plan to submit it to the Chrome Web Store after a period of public feedback and beta testing.
