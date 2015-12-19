@@ -11,4 +11,8 @@ When the isvhsopen status changes, a browser notification pops up to alert the u
 
 ![Browser Notification Example](./NotificationExample.png)
 
-To use this extension in developer mode, go to chrome://extensions/, check the Developer Mode checkbox in the top right, and drag the ```isvhsopen``` extension folder onto the window. I plan to submit it to the Chrome Web Store after a period of public feedback and beta testing.
+
+## Installation
+This extension is not in the Chrome Web Store yet, I plan to submit it after a period of public beta testing. If you'd like to install it in the mean time:
+
+Download this repository as a zip and extract it or clone the repository with git. then go to chrome://extensions/, check the Developer Mode checkbox in the top right, and drag the ```isvhsopen``` extension folder from your copy of the repository onto the window.
