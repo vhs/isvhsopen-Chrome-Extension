@@ -1,7 +1,7 @@
 # isvhsopen Chrome Extension
 Extension for Google Chrome to show the status of isvhsopen.com
 
-Install it on the [Google Chrome Web Store](https://chrome.google.com/webstore/detail/is-vhs-open/fpkncnbnigngakejmdllbonkikmagffk)!
+Install it on the [Chrome Web Store](https://chrome.google.com/webstore/detail/is-vhs-open/fpkncnbnigngakejmdllbonkikmagffk)!
 
 This extension places an icon ([browser action](https://developer.chrome.com/extensions/browserAction)) in the toolbar of Google Chrome, showing whether VHS is open or closed, and the time that it is open until. It does this by polling http://www.isvhsopen.com/api/status/ once a minute (defined in [background.js](./isvhsopen/background.js)). By clicking the icon, you can prompt it to poll immediately and update the icon.
 
@@ -13,4 +13,7 @@ When the isvhsopen status changes, a browser notification pops up to alert the u
 
 ![Browser Notification Example](./NotificationExample.png)
 
-If you wish to make changes and test this extension in developer mode, go to chrome://extensions/, check the Developer Mode checkbox in the top right, and drag the ```isvhsopen``` extension folder onto the window. Further discussion has taken place on the [VHS Talk forums](https://talk.hackspace.ca/t/isvhsopen-chrome-extension/3549).
+## Installation
+This extension is available in the [Chrome Web Store](https://chrome.google.com/webstore/detail/is-vhs-open/fpkncnbnigngakejmdllbonkikmagffk). If you wish to make changes and test this extension:
+
+Download this repository as a zip and extract it or clone the repository with git. then go to chrome://extensions/, check the Developer Mode checkbox in the top right, and drag the ```isvhsopen``` extension folder from your copy of the repository onto the window.
