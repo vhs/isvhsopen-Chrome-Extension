@@ -13,8 +13,7 @@ function http_get(url, callback) {
         var data = xhr.responseText;
         callback(data);
       } else {
-        // TODO remove log msg
-        console.log('response was not 200', xhr.status);
+        //console.log('response was not 200', xhr.status);
         callback(null);
       }
     }

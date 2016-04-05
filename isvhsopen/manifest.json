@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Is VHS Open",
-  "description": "This extension creates an icon indicator for the current status of isvhsopen.com",
-  "version": "0.1",
+  "description": "View the isvhsopen.com status at a glance with a browser icon.",
+  "version": "1.0",
   "icons": { "16" : "images/16.png",
              "48" : "images/48.png",
              "128" : "images/128.png" },

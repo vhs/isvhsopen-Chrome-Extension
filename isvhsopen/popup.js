@@ -1,4 +1,4 @@
-// This event fires when the user clicks the Browser Action Icon
+// This event fires when the user clicks the Browser Action Icon to query immediately and also show the popup
 document.addEventListener("DOMContentLoaded", function(event) { 
   var statusDiv = document.getElementById("status");
   statusDiv.innerText = "Refreshing...";
